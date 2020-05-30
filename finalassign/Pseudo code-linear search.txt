@@ -1,0 +1,18 @@
+Main method {
+Start
+Declare an array arr with a size of 100
+Read the number of elements from the user  
+For (number of elements)
+	Read the values of the elements from the user 
+End-for
+Read a value from the user to be searched for
+For (number of elements)
+	If (the value located in array = target value)
+		Tell the user that the target number is found with its position
+	End-if
+End-for
+If (value position = size of the array)
+	Tell the user that the number not found 
+End-if
+End
+}

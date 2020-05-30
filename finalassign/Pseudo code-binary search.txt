@@ -1,0 +1,24 @@
+Main method {
+Start
+read the size of the array from the user 
+for (size of the array)
+	read numbers from the user 
+end-for
+read a value from the user to be searched for 
+Declare low = 0, high = size of the array -1, mid = 0
+While (low <= high) {
+	Mid = (low + high) / 2
+	If (value of mid = target number) 
+		Tell the user that the target number is found with its position
+	Else if (value of mid > target number)
+		High = mid – 1
+	Else if (target number > value of mid)
+		Low = mid + 1
+	End-if
+End While
+}
+If (low > high)
+	Tell the user that the target number isn’t found 
+End-if
+End	
+}
